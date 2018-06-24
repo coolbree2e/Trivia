@@ -1,0 +1,52 @@
+* {
+    font-family: "eater";
+    color: whitesmoke;
+}
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: url("../images/VGback1.jpg");
+}
+#clock{text-align: center;
+    font-size: 50px;
+    position: fixed;
+    left: 190px;
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    opacity: 0.3;
+}
+#floater{
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.7;
+        position: fixed;
+        margin:0;
+        top: 0px;
+}
+#game-area{
+    position: relative;
+    z-index: 1000;
+ }
+h1 {
+    font-size: 55px;
+    text-align: center;
+}
+#question-area{
+    text-align: center;
+}
+
+#footer {
+    text-align: right;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+    position: fixed;
+    margin: 25px;
+    color:coral;
+    clear: both;
+}
